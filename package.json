@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "cypress": "cypress open",
+        "e2e": "start-server-and-test start http://localhost:4200 cypress"
+    },
+    "devDependencies": {
+        "cypress": "^12.8.1"
+    }
+}
